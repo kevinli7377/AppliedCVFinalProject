@@ -31,5 +31,8 @@ This repository contains a Jupyter notebook documenting the fine-tuning process 
 
 The fine-tuned DeiT model exhibits robust performance on the expanded Fruits-360 dataset, showcasing its capability to generalize across a diverse range of classes. Through experimentation, insights into the model's behavior and its ability to accurately classify fruits and other food items are gained.
 
+## Best Model Weights
+If you want to work with the best DeiT model's weights, the .pth file is available here: https://drive.google.com/file/d/1--KUyiK6GICBemEnD7ItEMDESg8C7KkO/view?usp=sharing
+
 
 Happy fine-tuning and classifying! 🥩🧈🍗🥚🥚🍞🐑🥛🍝🐖🍚🐟
