@@ -1,19 +1,21 @@
 # Ingredient Detection and Recipe Recommendation System
 
-This repository contains all code files that were used as part of the designed system. A breakdown of the repository is as follows:
+This repository contains all code files, notebooks, and a select number of dataset used for our Ingredient Detection and Recipe Recommendation System. This system leverages segmentation and classification models (namely a fine-tuned DeiT and a grounded-SAM model) to generate labels for ingredients in a scene image containing individual ingredients. The labels are then inputted into a recipe matching algorithm (leveraging Sentence Transformers) to output potential recipes. Below is a detailed breakdown of the repository structure and contents:
 
-**Folders containing files used for the final architecture:**
+##Repository Structure
 
-- Expanded Fruits-360 Detection: Contains a Jupyter notebook documenting the fine-tuning process of a Data-efficient Image Transformer (DeiT) model on the expanded Fruits-360 dataset.
+###Core Architecture Folders:
 
-- Segmentation: Contains Jupyter notebooks for various segmentation models on the testing dataset. The final segmentation model and additional processing code used in the combined model can be found in the 'grounded-sam' folder.
+- **Expanded Fruits-360 Detection**: This folder includes a Jupyter notebook that documents the fine-tuning of a Data-efficient Image Transformer (DeiT) model on the expanded Fruits-360 dataset. It provides insights into model adjustments and performance metrics.
 
-- Recipes and Matching: Contains original and modified recipe dataset CSVs, as well as a Jupyter notebook containing two classes, RecipeCSVParser and RecipeSearcher, both used in the final architecture.
+- **Segmentation: Segmentation**: This directory houses Jupyter notebooks for experimenting with various segmentation models on our test dataset. The chosen model for our final architecture, along with additional processing scripts, is located in the grounded-sam folder.
 
-- FinalResultsAndTesting: Contains Jupyter notebook to process fine-tuned DeiT classification outputs. Grounded-SAM outputted segments and DeiT outputs can also be found in this folder.
+- **Recipes and Matching**: This folder contains CSV files for both original and modified recipe datasets, along with a Jupyter notebook that features classes 'RecipeCSVParser' and 'RecipeSearcher,' integral to the recipe recommendation functionality of our system. 
 
-**Additional folders containing experimental code and dataset preparation:**
+- **FinalResultsAndTesting**: Contains notebooks for analyzing the outputs from the fine-tuned DeiT model. This folder also includes results from the 'Grounded-SAM' segmentation model and integrated outputs necessary for the final testing and result demonstration.
 
-- CLIP: Contains notebooks used to test CLIP on extended-fruits-360 and additional datasets.
-- Fruits-360 Detection Experiments: Contains Jupyter notebooks for fine-tuning various pre-trained models on the vanilla Fruits-360 dataset.
-- dataset_preparation_code: Contains various notebooks used for image dataset preparation, including GoogleImageScraping, json_creation, and Training_Test_Split.
+###Experimental and Dataset Preparation Folders：**
+
+- **CLIP**: Includes notebooks that test the CLIP model on the extended Fruits-360 dataset and additional datasets, exploring its capabilities and limitations in ingredient detection.
+- **Fruits-360 Detection Experiments**: Contains notebooks focused on fine-tuning various pre-trained models on the vanilla Fruits-360 dataset, detailing experiments and findings.
+- **dataset_preparation_code**: This folder contains a collection of notebooks used for preparing image datasets. These include scripts for Google Image Scraping, JSON file creation, and training/test data splitting.
