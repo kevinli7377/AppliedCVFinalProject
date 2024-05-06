@@ -2,7 +2,7 @@
 
 This repository contains all code files that were used as part of the designed system. A breakdown of the repository is as follows:
 
-Folders containing files used for the final architecture:
+**Folders containing files used for the final architecture:**
 
 - Expanded Fruits-360 Detection: Contains a Jupyter notebook documenting the fine-tuning process of a Data-efficient Image Transformer (DeiT) model on the expanded Fruits-360 dataset.
 
@@ -12,7 +12,7 @@ Folders containing files used for the final architecture:
 
 - FinalResultsAndTesting: Contains Jupyter notebook to process fine-tuned DeiT classification outputs. Grounded-SAM outputted segments and DeiT outputs can also be found in this folder.
 
-Additional folders containing experimental code and dataset preparation:
+**Additional folders containing experimental code and dataset preparation:**
 
 - CLIP: Contains notebooks used to test CLIP on extended-fruits-360 and additional datasets.
 - Fruits-360 Detection Experiments: Contains Jupyter notebooks for fine-tuning various pre-trained models on the vanilla Fruits-360 dataset.
