@@ -13,7 +13,8 @@ The final architecture was evaluated based on the following metric:
 
 Accuracy =Sc/St
 
-Sc = Number of scenes with correctly matched recipes 
+Sc = Number of scenes with correctly matched recipes
+
 St = Total number of scenes 
 
 The criterion for a correctly matched recipe: A recipe is considered correctly matched if the pre-labeled recipe for the scene is within the top N returned recipes.
