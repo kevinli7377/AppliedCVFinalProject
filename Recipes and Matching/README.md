@@ -24,4 +24,4 @@ This repository contains the original and modified recipe dataset CSVs. Addition
 
 ## References
 
-https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
+**Original recipe dataset:** https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
