@@ -2,6 +2,9 @@
 
 This repository contains the original and modified recipe dataset CSVs. Additionally, this repository also contains a Jupyter notebook containing two classes, RecipeCSVParser and RecipeSearcher, both used in the final architecture of the ingredient detection and recipe matching model.
 
+![Project Framework 3](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/ceb977c0-2792-46cd-9304-62852da085ba)
+![Project Framework 4](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/f663b965-c621-4ee2-8cd5-ca18ef6dec8f)
+
 ## Notebook Overview
 
 - **RecipeMatchingFinal.ipynb**: This notebook contains two classses, RecipeCSVParser and RecipeSearcher. This notebook is a finalized version of all code used in 'RecipeMatchingWorking.ipynb,' a working notebook that can be found in 'Testing Code.'
