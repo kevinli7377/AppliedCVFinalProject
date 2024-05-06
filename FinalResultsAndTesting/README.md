@@ -9,20 +9,17 @@ Note that the code for the recipe matching algorithm is present in the above not
 
 ## Results
 
-The final architecture was evaluated based on the following metric:
+The final architecture was evaluated based on the following metric: 
 
-Accuracy is calculated as the ratio of the number of scenes with correctly matched recipes to the total number of scenes:
+**Accuracy** = Sc / St
 
-\[
-\text{Accuracy} = \frac{S_c}{S_t}
-\]
-
-where:
-- \( S_c \) is the number of scenes with correctly matched recipes.
-- \( S_t \) is the total number of scenes.
+Where:
+- **Sc** = Number of scenes with correctly matched recipes
+- **St** = Total number of scenes 
 
 **Criterion for a correctly matched recipe:**
 A recipe is considered correctly matched if the pre-labeled recipe for the scene is within the top N returned recipes.
+
 
 All scene images were segmented using the segmentation model and subsequently classified using the fine-tuned DeiT model. Finally, the generated list labels were processed by turning the list into a set to remove duplicates and passed into the RecipeMatcher. 
 
