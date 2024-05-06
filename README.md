@@ -4,10 +4,6 @@ This repository contains all code files, notebooks, and a select number of datas
 
 ![Project Framework](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/631d5ae9-6692-4bf6-892c-ed997391c225)
 ![Project Framework 2](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/966561b6-f790-4f74-acc0-ec421626ada1)
-![Project Framework 3](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/833b2dce-c963-4a60-ba7f-6fc2f6f30660)
-![Project Framework 4](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/7349dfca-f757-44a6-bb00-c7d9d5b7a408)
-
-
 
 ## Repository Structure
 
