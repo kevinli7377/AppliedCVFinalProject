@@ -9,6 +9,22 @@ Note that the code for the recipe matching algorithm is present in the above not
 
 ## Results
 
+The final architecture was evaluated based on the following metric:
+
+Accuracy is calculated as the ratio of the number of scenes with correctly matched recipes to the total number of scenes:
+
+\[
+\text{Accuracy} = \frac{S_c}{S_t}
+\]
+
+where:
+- \( S_c \) is the number of scenes with correctly matched recipes.
+- \( S_t \) is the total number of scenes.
+
+**Criterion for a correctly matched recipe:**
+A recipe is considered correctly matched if the pre-labeled recipe for the scene is within the top N returned recipes.
+
+
 The final architecture was evaluated based on the following metric: 
 
 Accuracy =Sc/St
