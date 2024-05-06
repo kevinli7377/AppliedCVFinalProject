@@ -2,6 +2,15 @@
 
 This repository contains all code files, notebooks, and a select number of dataset used for our Ingredient Detection and Recipe Recommendation System. This system leverages segmentation and classification models (namely a fine-tuned DeiT and a grounded-SAM model) to generate labels for ingredients in a scene image containing individual ingredients. The labels are then inputted into a recipe matching algorithm (leveraging Sentence Transformers) to output potential recipes. Below is a detailed breakdown of the repository structure and contents:
 
+<img width="1298" alt="Project Framework 1" src="https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/4105f0bf-1d01-4f0f-87c4-2a19bc55a8b3">
+
+<img width="2849" alt="Project Framework 2" src="https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/f94aad49-8d73-4817-8ad6-40dc6c14c498">
+
+<img width="1780" alt="Project Framework 3" src="https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/c4369cf3-ffb1-4482-b1f6-b25cef66a80b">
+
+<img width="2052" alt="Project Framework 4" src="https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/0aa14153-a8bb-4b09-b28e-815363cc1c20">
+
+
 ## Repository Structure
 
 ### Core Architecture Folders
