@@ -27,7 +27,7 @@ Total number of scenes: 92
 
 
 
-**Test Batch 2: **Augmented test scenes created by splicing individual images of ingredients from the validation portion of the Fruits-360 Kaggle dataset.
+**Test Batch 2**: Augmented test scenes created by splicing individual images of ingredients from the validation portion of the Fruits-360 Kaggle dataset.
 
 Total number of scenes: 40
 ![Screenshot 2024-05-05 at 10 52 57 PM](https://github.com/kevinli7377/AppliedCVFinalProject/assets/56395320/c8345980-da86-4cc1-9e66-fe4a10785e72)
