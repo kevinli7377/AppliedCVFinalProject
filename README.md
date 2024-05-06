@@ -19,3 +19,9 @@ This repository contains all code files, notebooks, and a select number of datas
 - **CLIP**: Includes notebooks that test the CLIP model on the extended Fruits-360 dataset and additional datasets, exploring its capabilities and limitations in ingredient detection.
 - **Fruits-360 Detection Experiments**: Contains notebooks focused on fine-tuning various pre-trained models on the vanilla Fruits-360 dataset, detailing experiments and findings.
 - **dataset_preparation_code**: This folder contains a collection of notebooks used for preparing image datasets. These include scripts for Google Image Scraping, JSON file creation, and training/test data splitting.
+
+
+## Links to datasets:
+- Extended-fruits-360 Dataset: https://drive.google.com/drive/folders/1MPE5mmMRz5GdFZicR0Ep4Cg9CF24c3yx?usp=sharing
+- Test Batch 1: https://drive.google.com/drive/folders/1VqU8GrjYOhxsaUCuLiXNZh6iTUnG5mRA?usp=share_link
+- Test Batch 2: https://drive.google.com/drive/folders/1meIHyuWd2kGOChNONTshH6FeOW9HFitU?usp=share_link
