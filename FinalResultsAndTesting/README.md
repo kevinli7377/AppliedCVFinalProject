@@ -7,7 +7,7 @@ This repository contains the following:
 
 Note that the code for the recipe matching algorithm is present in the above notebook. A version containing only the matching algorithm can be found in the 'Recipes and Matching' repository accessible from the root directory. The modified csv used for matching can also be found in 'Recipes and Matching.'
 
-## Results
+## Evaluation Metric
 
 The final architecture was evaluated based on the following metric: 
 
@@ -23,6 +23,7 @@ A recipe is considered correctly matched if the pre-labeled recipe for the scene
 
 All scene images were segmented using the segmentation model and subsequently classified using the fine-tuned DeiT model. Finally, the generated list labels were processed by turning the list into a set to remove duplicates and passed into the RecipeMatcher. 
 
+## Results
 **Test Batch 1:** Scenes that contained natural images of ingredients. Consist of live scenes (assembled in the “wild” on counter) and augmented scenes (from Google Photos, DALL-E).
 
 Total number of scenes: 92
