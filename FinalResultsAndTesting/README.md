@@ -24,17 +24,6 @@ where:
 **Criterion for a correctly matched recipe:**
 A recipe is considered correctly matched if the pre-labeled recipe for the scene is within the top N returned recipes.
 
-
-The final architecture was evaluated based on the following metric: 
-
-Accuracy =Sc/St
-
-Sc = Number of scenes with correctly matched recipes
-
-St = Total number of scenes 
-
-The criterion for a correctly matched recipe: A recipe is considered correctly matched if the pre-labeled recipe for the scene is within the top N returned recipes.
-
 All scene images were segmented using the segmentation model and subsequently classified using the fine-tuned DeiT model. Finally, the generated list labels were processed by turning the list into a set to remove duplicates and passed into the RecipeMatcher. 
 
 **Test Batch 1:** Scenes that contained natural images of ingredients. Consist of live scenes (assembled in the “wild” on counter) and augmented scenes (from Google Photos, DALL-E).
