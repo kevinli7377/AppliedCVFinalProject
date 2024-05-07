@@ -11,7 +11,7 @@ This repository contains all code files, notebooks, and a select number of datas
 
 - **Expanded Fruits-360 Detection**: This folder includes a Jupyter notebook that documents the fine-tuning of a Data-efficient Image Transformer (DeiT) model on the expanded Fruits-360 dataset. It provides insights into model adjustments and performance metrics.
 
-- **Segmentation:**: This directory houses Jupyter notebooks for experimenting with various segmentation models on our test dataset. The chosen model for our final architecture, along with additional processing scripts, is located in the grounded-sam folder.
+- **Segmentation**: This directory houses Jupyter notebooks for experimenting with various segmentation models on our test dataset. The chosen model for our final architecture, along with additional processing scripts, is located in the grounded-sam folder.
 
 - **Recipes and Matching**: This folder contains CSV files for both original and modified recipe datasets, along with a Jupyter notebook that features classes 'RecipeCSVParser' and 'RecipeSearcher,' integral to the recipe recommendation functionality of our system. 
 
