@@ -14,4 +14,4 @@ This repository contains Jupyter notebooks for various segmentation models on th
 Based on the experiments conducted, the Grounded-SAM model demonstrated the best segmentation results, allowing for the most accurate detection.
 
 ## Links to Source Code
-- Grounding Dino: https://github.com/IDEA-Research/GroundingDINO
+- Grounded SAM: https://github.com/IDEA-Research/Grounded-Segment-Anything
