@@ -30,3 +30,7 @@ This repository contains all code files, notebooks, and a select number of datas
 - Test Batch 2: https://drive.google.com/drive/folders/1meIHyuWd2kGOChNONTshH6FeOW9HFitU?usp=share_link
 - Vanilla fruits-360 Kaggle Dataset: https://www.kaggle.com/datasets/moltean/fruits
 - Vanilla Epicurious Recipe Dataset: https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
+
+## LInks to source code:
+- Grounding Dino: https://github.com/IDEA-Research/GroundingDINO
+
