@@ -31,7 +31,11 @@ This repository contains all code files, notebooks, and a select number of datas
 - Vanilla fruits-360 Kaggle Dataset: https://www.kaggle.com/datasets/moltean/fruits
 - Vanilla Epicurious Recipe Dataset: https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
 
-## LInks to Source Code:
+## Links to Source Code:
+- ResNet: https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
+- VGG: https://github.com/pytorch/vision/blob/main/torchvision/models/vgg.py
+- ViT: https://github.com/pytorch/vision/blob/main/torchvision/models/vision_transformer.py
+- DeiT: https://github.com/facebookresearch/deit
 - Grounded SAM: [https://github.com/IDEA-Research/GroundingDINO](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 - SAM: https://github.com/facebookresearch/segment-anything
 
