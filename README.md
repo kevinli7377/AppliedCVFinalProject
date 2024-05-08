@@ -32,5 +32,6 @@ This repository contains all code files, notebooks, and a select number of datas
 - Vanilla Epicurious Recipe Dataset: https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
 
 ## LInks to Source Code:
-- Grounding Dino: https://github.com/IDEA-Research/GroundingDINO
+- Grounded SAM: [https://github.com/IDEA-Research/GroundingDINO](https://github.com/IDEA-Research/Grounded-Segment-Anything)
+- SAM: https://github.com/facebookresearch/segment-anything
 
