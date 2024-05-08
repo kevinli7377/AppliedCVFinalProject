@@ -10,3 +10,5 @@ This repository contains Jupyter notebooks for various experiments testing out-o
 
 ## Results
 Overall, from these preliminary experiments, we concluded that CLIP was not as successful compared to the Segmentation + Detection approach that we chose to focus on instead.
+Although CLIP has the advantage of performing multi-ingredient detection without needing segmentation, it also often misses ingredients in an image. We chose to have a segmentation phase
+so that every ingredient is passed through the detection model. 
