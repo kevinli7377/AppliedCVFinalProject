@@ -12,7 +12,3 @@ This repository contains Jupyter notebooks for various segmentation models on th
 ## Results
 
 Based on the experiments conducted, the Grounded-SAM model demonstrated the best segmentation results, allowing for the most accurate detection.
-
-## Links to Source Code
-- Grounded SAM: https://github.com/IDEA-Research/Grounded-Segment-Anything
-- SAM: https://github.com/facebookresearch/segment-anything
