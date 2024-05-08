@@ -15,3 +15,4 @@ Based on the experiments conducted, the Grounded-SAM model demonstrated the best
 
 ## Links to Source Code
 - Grounded SAM: https://github.com/IDEA-Research/Grounded-Segment-Anything
+- SAM: https://github.com/facebookresearch/segment-anything
