@@ -1,6 +1,6 @@
 # Segmentation Models
 
-This repository contains Jupyter notebooks for various segmentation models on the testing dataset. 
+This repository contains Jupyter notebooks for various segmentation models on the testing dataset. This includes applying segmentation on both test 1 and test 2 datasets.
 
 ## Notebooks Overview
 
